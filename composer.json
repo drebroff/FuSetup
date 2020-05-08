@@ -1,0 +1,26 @@
+{
+    "name": "funami/module-fusetup",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "leayuda@gmail.com",
+            "name": "Dmitrij Rebrov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Funami\\FuSetup\\": ""
+        }
+    }
+}

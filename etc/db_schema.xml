@@ -1,0 +1,12 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+         <table name="funami_table">
+             <column xsi:type="int" name="grid_id" identity="true" padding="10"  nullable="false" comment="Grid ID"/>
+             <column xsi:type="text" name="name" nullable="false" comment="Product Name"/>
+             <column xsi:type="int" name="qty" nullable="false" comment="Quantity"/>
+             <column xsi:type="float" name="price" nullable="false"  comment="Price"/>
+             <constraint xsi:type="primary" referenceId="PRIMARY">
+                 <column name="grid_id"/>
+             </constraint>
+         </table>
+</schema>
